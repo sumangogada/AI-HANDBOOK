@@ -52,7 +52,7 @@ messages = [
     },
     {
         "role": "user",
-        "content": query,
+        "content": query,   
     },
 ]
 
