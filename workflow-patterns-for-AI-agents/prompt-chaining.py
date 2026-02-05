@@ -143,6 +143,7 @@ def process_calendar_request(user_input:str)->Optional[EventDistribution]:
           or intial_extraction.confidence_score < 0.7
     ):
           logger.warning(f"gate check failed as calendar event : {intial_extraction.is_calendar_event} and confidence score is : {intial_extraction.confidence_score}")
+          return None
 
     logger.info("Gate check passed, proceeding with event processing")
 
