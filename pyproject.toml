@@ -1,0 +1,11 @@
+[project]
+name="AI-HANDBOOK"
+version="0.1.0"
+description="Complete AI Handbook with tutorials"
+readme="README.MD"
+requires-python=">=3.11"
+dependencies=[
+    "dotenv>=0.9.9",
+    "openai>=2.20.0",
+    "pydantic>=2.12.5",
+]
