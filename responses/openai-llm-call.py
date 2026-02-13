@@ -28,7 +28,9 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 
 response1 = client.responses.create(
-    model="gpt-5.2",input="Write a one-sentence bedtime story about a unicorn"
+    model="gpt-5.2",
+    instructions="Talk like a pirate",
+    input="Write a one-sentence bedtime story about a unicorn"
 )
 
 print(response1.output_text)
