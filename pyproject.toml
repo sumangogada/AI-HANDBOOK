@@ -7,8 +7,11 @@ requires-python=">=3.11"
 dependencies=[
     "datetime>=6.0",
     "dotenv>=0.9.9",
+    "fastapi>=0.129.0",
+    "nylas>=6.14.2",
     "openai>=2.20.0",
     "pydantic>=2.12.5",
     "tiktoken>=0.12.0",
     "typing>=3.10.0.0",
+    "uvicorn>=0.40.0",
 ]
